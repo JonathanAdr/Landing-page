@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.navbar {
+  padding: 15px 15vh;
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar .zomentum {
+  position: relative;
+  right: 55vh;
+}
+
+.userlogin {
+  display: flex;
+  align-items: center;
+}
+
+.userlogin .user {
+  position: relative;
+  left: 2vh;
+}
+
+.navbar a {
+  color: #000000;
+  text-align: center;
+  padding: 12px 22px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+a.getademo {
+  color: #2f70fe;
+  border: 2px solid #2f70fe;
+}
+
+h1 {
+  position: absolute;
+  font-size: 6vh;
+  color: #ffffff;
+  text-align: center;
+  left: 60vh;
+}
+
+.firsth1 {
+  padding: 100px 9px;
+}
+
+.p1 {
+  position: absolute;
+  left: 59vh;
+  color: #ffffff;
+  display: flex;
+  text-align: center;
+  top: 41vh;
+  font-size: 19px;
+}
+
+.secondh1 {
+  top: 31vh;
+}
+
+.rectangle2 {
+  position: relative;
+  top: -9vh;
+}
+
+.picture1 {
+  position: absolute;
+  top: 54vh;
+  left: 20vh;
+}
+
+.picture2 {
+  position: absolute;
+  top: 42vh;
+  right: 15vh;
+}
+
+.button1 {
+  cursor: pointer;
+  position: absolute;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 13px 30px;
+  font-weight: 500;
+  top: 54vh;
+  left: 89vh;
+}
+
+.listsellgrow {
+  display: flex;
+  position: absolute;
+  top: 90vh;
+  left: 77vh;
+  color: #000000;
+}
+
+.p2 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  font-weight: 700;
+  top: 122vh;
+  left: 44vh;
+}
+
+.list {
+  position: absolute;
+  top: 106vh;
+  left: 54vh;
+}
+.sell {
+  position: absolute;
+  top: 106vh;
+  left: 93vh;
+}
+.grow {
+  position: absolute;
+  top: 106vh;
+  left: 128vh;
+}
+
+.frame1 {
+  position: absolute;
+  top: 127vh;
+  left: 12vh;
+}
+.frame2 {
+  position: absolute;
+  top: 85vh;
+  right: 12vh;
+}
+
+.secondlayer {
+  padding: 15vh 35vh;
+}
+
+.steoroids {
+  right: 35vh;
+  top: 160vh;
+  position: absolute;
+}
+
+.kanan1 {
+  padding-top: 30vh;
+  position: absolute;
+  right: 35vh;
+}
+
+.signup {
+  cursor: pointer;
+}
+
+.vendor {
+  right: 85vh;
+  top: 25vh;
+  position: absolute;
+}
+
+.kiri2 {
+  padding-top: 75vh;
+}
+
+.autopilot {
+  position: absolute;
+  top: 260vh;
+  right: 50vh;
+}
+
+.kanan2 {
+  padding-top: 30vh;
+  position: absolute;
+  right: 35vh;
+}
+
+.trackperformance {
+  right: 85vh;
+  top: 25vh;
+  position: absolute;
+}
+
+.kiri3 {
+  padding-top: 75vh;
+}
+
+.playbook {
+  position: absolute;
+  top: 360vh;
+  right: 50vh;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 48vh;
+  background: black;
+  padding: 10vh 5% 55px 15%;
+  color: white;
+  justify-content: space-between;
+}
+
+.footer .inti {
+  display: flex;
+}
+
+.inti .isi {
+  flex: 1;
+}
+
+.inti .isi ul {
+  list-style: none;
+}
+
+.inti .isi ul li {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.inti .isi ul li:nth-child(1) {
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.copyrightfollow {
+  display: flex;
+  font-size: 15px;
+  max-width: 850px;
+  justify-content: space-between;
+}
